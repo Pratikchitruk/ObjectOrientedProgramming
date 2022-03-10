@@ -1,14 +1,23 @@
-﻿using System;
+﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class HelloWorld
+public class StockAccount
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to stock managnemt program");
+        Console.WriteLine("welcomr to Stock account programming");
 
-        StockAccountManagnent.MyStocks.Stock();
-             
+        CoomertialDataProcesssing.StockAccount.Filename();
+        CoomertialDataProcesssing.StockAccount.buy();
+        CoomertialDataProcesssing.StockAccount.sell();
+        CoomertialDataProcesssing.LinkedList.main();
+
 
         
+
     }
 }
