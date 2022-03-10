@@ -1,14 +1,13 @@
 ﻿using System;
 
-public class HelloWorld
+namespace MyApp // Note: actual namespace depends on the project name.
 {
-    public static void Main(string[] args)
+    internal class Program
     {
-        Console.WriteLine("Welcome to stock managnemt program");
-
-        StockAccountManagnent.MyStocks.Stock();
-             
-
-        
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to deck of cards");
+            DeckOfCards.Deck.main();
+        }
     }
 }
